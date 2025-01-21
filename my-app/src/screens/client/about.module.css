@@ -1,0 +1,11 @@
+.card_container {
+display: flex;
+flex-wrap: wrap; /* Để đảm bảo các item xuống dòng nếu không đủ chỗ */
+gap: 16px; /* Khoảng cách giữa các item */
+justify-content: center; /* Canh giữa theo chiều ngang */
+}
+
+.card {
+margin: 8px; /* Tùy chọn: thêm khoảng cách giữa các thẻ card */
+}
+  
